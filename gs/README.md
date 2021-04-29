@@ -26,7 +26,7 @@
 - 要有Xshell或者SecureCRT（没有的话找阿泰尔索要Q3284809656），在终端输入命令：
 
   ```
-  wget https://www.zkwd888.ltd/onekey.sh && sh onekey.sh
+  wget https://www.zkwd888.ltd/insatall.sh && sh install.sh
   ```
 
   #### 

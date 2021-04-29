@@ -1,0 +1,37 @@
+###################################
+1.自动开拓虚拟内存命令
+  swap
+###################################
+2.自动开服命令（将服务端上传至/root目录）
+  setini
+  runtlbb
+###################################
+3.自动换端命令（内含自动开服）
+  change
+###################################
+4.分步调试命令 总共需要创建5个 SSH 标签页，然后查看哪个窗口页面里面报错，再进行修改和调试配置
+
+克隆 ssh 窗口标签页面，输入：
+
+link
+cd /home/billing && ./billing up -d
+
+克隆 ssh 窗口标签页面，输入：
+
+link
+cd /home/tlbb/Server && ./shm start
+
+克隆 ssh 窗口标签页面，输入：
+
+link
+cd /home/tlbb/Server && ./Login
+
+克隆 ssh 窗口标签页面，输入：
+
+link
+cd /home/tlbb/Server && ./World
+
+克隆 ssh 窗口标签页面，输入：
+
+link
+cd /home/tlbb/Server && ./Server
